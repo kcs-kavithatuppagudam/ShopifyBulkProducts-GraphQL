@@ -1,0 +1,24 @@
+{
+  "name": "graphql_shopify",
+  "version": "1.0.0",
+  "description": "graphql with shopify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  bulkProductsDataAPI.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^5.0.1",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-request": "^4.3.0",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
